@@ -1,0 +1,27 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@repo/logger": "*",
+    "next": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@repo/ui": "*"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.1.1",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.62",
+    "@types/react-dom": "^18.2.19",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "typescript": "^5.3.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
